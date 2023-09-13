@@ -1,1 +1,19 @@
-
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projdev
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: projdev
+  template:
+    metadata:
+      labels:
+        app: projdev
+    spec:
+      containers:
+      - name: projdev
+        image: projdev
+        ports:
+        - containerPort: 80
