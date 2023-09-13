@@ -1,1 +1,7 @@
-
+version: '2.1'
+services:
+  projdev:
+     image: curso-angular
+     build: . 
+     ports:
+       -  8081:80
