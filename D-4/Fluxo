@@ -1,1 +1,1 @@
-BUILD ->  ECR Repository -> RELEASE
+Azure Repos -> BUILD ->  ECR Repository -> RELEASE ->
