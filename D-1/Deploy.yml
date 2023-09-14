@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: projdev
-        image: projdev
+        image: projdev:1.0.0.0
         ports:
         - containerPort: 80
