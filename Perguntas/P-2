@@ -1,1 +1,6 @@
+Resposta** linha 4
 
+  dotnet/sdk
+  O exemplo usa essa imagem para compilar o aplicativo. A imagem contém o SDK do .NET, que inclui as ferramentas de linha de comando (CLI).
+  A imagem é otimizada para desenvolvimento local, depuração e teste de unidade.
+  As ferramentas instaladas para desenvolvimento e compilação tornam a imagem relativamente grande.
