@@ -1,0 +1,4 @@
+Solução**
+Utilizar um conjunto de réplicas MongoDB configurado com um nó primário e dois secundários.
+A replicação ajudará a garantir alta disponibilidade e recuperação de falhas em seu ambiente MongoDB.
+Possibilitando a atualização individual do conjunto de réplicas.
