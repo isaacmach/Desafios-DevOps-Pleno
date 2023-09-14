@@ -1,3 +1,4 @@
+mongodump --out /*/#/&
 sudo service mongod stop
 sudo apt-get purge mongodb-org*
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
