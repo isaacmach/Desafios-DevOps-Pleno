@@ -9,6 +9,7 @@ cluster - N/A
 image - N/A
 image_repository - N/A
 image_version - N/A
+namespace - N/A
 
 Artifacts:
 Project - N/A
