@@ -1,1 +1,26 @@
+Resposta**
+*Azure
+- Resources/Identities/Roles
 
+*Roles - As funções no RBAC do Azure são como cargos ou grupos de permissões específicos para os serviços e recursos da plataforma Azure.
+Existem várias funções predefinidas, como "Colaborador" (Contributor), "Leitor" (Reader), "Gerente de Recursos" (Resource Manager), entre outras.
+Cada função define um conjunto específico de permissões que os usuários ou grupos podem ter em recursos específicos da Azure.
+Por exemplo, a função "Colaborador" permite a criação, modificação e exclusão de recursos, enquanto a função "Leitor" permite apenas a leitura de recursos.
+
+*Identities - No contexto da Azure, as identidades referem-se aos usuários, grupos ou serviços que precisam de acesso aos recursos da Azure.
+Essas identidades podem ser contas de usuário individuais, grupos de usuários ou até mesmo serviços de aplicativos ou recursos que precisam interagir com recursos da Azure.
+As identidades são atribuídas a funções específicas para determinar o nível de acesso que elas têm aos recursos da Azure. 
+
+*Resources - Os recursos no RBAC do Azure são os ativos que você cria e gerencia na plataforma, como máquinas virtuais, bancos de dados, grupos de recursos, armazenamento e muito mais.
+Cada recurso tem sua própria configuração de segurança e pode ser protegido por meio da atribuição de funções a identidades específicas.
+Isso permite controlar quem pode fazer o quê com os recursos, garantindo o acesso apropriado e a segurança.
+
+Como esses componentes colaboram em um sistema RBAC da Azure:
+
+A administração do controle de acesso no Azure envolve a atribuição de funções específicas às identidades, seja para usuários individuais, grupos ou serviços. Isso é feito por administradores que configuram políticas de controle de acesso para cada recurso ou grupo de recursos.
+As funções definem quais ações podem ser realizadas em recursos específicos. Por exemplo, a função "Colaborador" permite que um usuário crie ou modifique recursos, enquanto a função "Leitor" permite apenas visualização de recursos.
+Atribuir a função correta a uma identidade garante que ela tenha acesso apenas ao que é necessário para realizar suas tarefas.
+O RBAC no Azure permite um controle granular sobre o acesso a recursos, o que significa que você pode personalizar permissões com base nas necessidades específicas de sua organização. Isso ajuda a implementar o princípio do "princípio do mínimo privilégio".
+As identidades podem ser de natureza variada, incluindo contas de usuário, grupos do Azure AD (Azure Active Directory), identidades de serviço gerenciado e até funções de aplicativo. Isso permite que você controle o acesso de uma variedade de entidades.
+O RBAC da Azure é uma parte fundamental da estratégia de segurança na plataforma e ajuda a proteger recursos críticos contra acessos indevidos, mantendo um registro de auditoria das atividades para fins de conformidade e monitoramento de segurança.
+Em resumo, o RBAC da Microsoft Azure utiliza funções, identidades e recursos para controlar o acesso aos recursos e serviços da Azure, fornecendo uma maneira robusta de gerenciar a segurança e as permissões em ambientes de nuvem.
