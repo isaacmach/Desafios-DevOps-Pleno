@@ -1,0 +1,26 @@
+## 4 RELEASE ##
+
+Pipeline - Release
+
+RELEASE:
+
+variables:
+cluster - N/A
+image - N/A
+image_repository - N/A
+image_version - N/A
+
+Artifacts:
+Project - N/A
+Source (build pipeline) - Build 
+Default version - N/A
+Source alias - N/A
+Continuous deployment trigger - Enabled
+
+Stages:
+Install kubectl
+Display name - Install kubectl
+AWS Credentials - N/A
+AWS Region - N/A
+Arguments - $(image_version) $(image_repository) $(image) $(namespace) $(cluster)
+Script Path - N/A
