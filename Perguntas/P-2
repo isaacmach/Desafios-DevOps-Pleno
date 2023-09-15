@@ -1,4 +1,6 @@
-Resposta** linha 4
+Resposta: 
+  
+  linha 4
 
   dotnet/sdk
   O exemplo usa essa imagem para compilar o aplicativo. A imagem contém o SDK do .NET, que inclui as ferramentas de linha de comando (CLI).
