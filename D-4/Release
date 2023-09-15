@@ -2,8 +2,6 @@ Pipeline Azure DevOps
 
 Estrutura do Pipeline - Release:
 
-RELEASE:
-
 variables:
 cluster - N/A
 image - N/A
