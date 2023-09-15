@@ -1,18 +1,18 @@
-Resposta**
+Resposta:
 
-*Azure
+Azure
 - Resources/Identities/Roles
 
-*Roles - As funções no RBAC do Azure são como cargos ou grupos de permissões específicos para os serviços e recursos da plataforma Azure.
+Roles - As funções no RBAC do Azure são como cargos ou grupos de permissões específicos para os serviços e recursos da plataforma Azure.
 Existem várias funções predefinidas, como "Colaborador" (Contributor), "Leitor" (Reader), "Gerente de Recursos" (Resource Manager), entre outras.
 Cada função define um conjunto específico de permissões que os usuários ou grupos podem ter em recursos específicos da Azure.
 Por exemplo, a função "Colaborador" permite a criação, modificação e exclusão de recursos, enquanto a função "Leitor" permite apenas a leitura de recursos.
 
-*Identities - No contexto da Azure, as identidades referem-se aos usuários, grupos ou serviços que precisam de acesso aos recursos da Azure.
+Identities - No contexto da Azure, as identidades referem-se aos usuários, grupos ou serviços que precisam de acesso aos recursos da Azure.
 Essas identidades podem ser contas de usuário individuais, grupos de usuários ou até mesmo serviços de aplicativos ou recursos que precisam interagir com recursos da Azure.
 As identidades são atribuídas a funções específicas para determinar o nível de acesso que elas têm aos recursos da Azure. 
 
-*Resources - Os recursos no RBAC do Azure são os ativos que você cria e gerencia na plataforma, como máquinas virtuais, bancos de dados, grupos de recursos, armazenamento e muito mais.
+Resources - Os recursos no RBAC do Azure são os ativos que você cria e gerencia na plataforma, como máquinas virtuais, bancos de dados, grupos de recursos, armazenamento e muito mais.
 Cada recurso tem sua própria configuração de segurança e pode ser protegido por meio da atribuição de funções a identidades específicas.
 Isso permite controlar quem pode fazer o quê com os recursos, garantindo o acesso apropriado e a segurança.
 
