@@ -1,1 +1,1 @@
-Azure Repos -> BUILD ->  ECR Repository -> RELEASE -> cluster
+Azure Repos -> PIPELINE-BUILD ->  ECR Repository -> PIPELINE-RELEASE -> cluster
