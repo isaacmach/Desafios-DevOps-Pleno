@@ -1,24 +1,23 @@
-Resposta**
-
+Resposta
 
 RBAC (Controle de Acesso Baseado em Função) é um modelo de controle de acesso amplamente utilizado em ambientes de TI para gerenciar permissões de usuários e recursos. Funciona da seguinte forma:
 
-1. Identificação de Funções: As funções são definidas com base nas responsabilidades organizacionais.
+Identificação de Funções: As funções são definidas com base nas responsabilidades organizacionais.
 
-2. Atribuição de Funções: Usuários são atribuídos a uma ou mais funções com base em suas responsabilidades.
+Atribuição de Funções: Usuários são atribuídos a uma ou mais funções com base em suas responsabilidades.
 
-3. Definição de Permissões: Permissões são associadas a funções, especificando o que os usuários podem fazer com recursos.
+Definição de Permissões: Permissões são associadas a funções, especificando o que os usuários podem fazer com recursos.
 
-4. Associação de Funções e Permissões**: Cria-se uma matriz que relaciona funções a ações específicas.
+Associação de Funções e Permissões**: Cria-se uma matriz que relaciona funções a ações específicas.
 
-5. Controle de Acesso: O sistema verifica as funções dos usuários para conceder ou negar acesso a recursos com base nas permissões associadas.
+Controle de Acesso: O sistema verifica as funções dos usuários para conceder ou negar acesso a recursos com base nas permissões associadas.
 
 Benefícios do RBAC:
--Segurança Aprimorada: Minimiza riscos ao conceder apenas as permissões necessárias.
--Simplificação da Administração: Facilita a gestão de permissões e funções.
--Conformidade e Auditoria: Ajuda na conformidade regulatória e rastreamento de atividades.
--Redução de Erros: Diminui erros de concessão de permissões.
--Melhoria da Produtividade: Permite acesso rápido a recursos necessários.
--Tolerância a Mudanças: Adapta-se facilmente às mudanças organizacionais.
+Segurança Aprimorada: Minimiza riscos ao conceder apenas as permissões necessárias.
+Simplificação da Administração: Facilita a gestão de permissões e funções.
+Conformidade e Auditoria: Ajuda na conformidade regulatória e rastreamento de atividades.
+Redução de Erros: Diminui erros de concessão de permissões.
+Melhoria da Produtividade: Permite acesso rápido a recursos necessários.
+Tolerância a Mudanças: Adapta-se facilmente às mudanças organizacionais.
 
 Em resumo, o RBAC é um modelo eficaz que organiza permissões com base em funções, aprimorando a segurança, facilitando a administração e atendendo a requisitos de conformidade em ambientes de TI.
