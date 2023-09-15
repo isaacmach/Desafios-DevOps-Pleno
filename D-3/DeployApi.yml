@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: isaacapi
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: isaacapi
