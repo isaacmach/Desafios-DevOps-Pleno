@@ -1,7 +1,7 @@
-## Pipeline Azure DevOps ## 
+Pipeline Azure DevOps
 Pipeline - Build
 
-## 1 Pipeline ##
+1 Pipeline 
 Pipeline variables: 
 access_token - $(System.AccessToken)  
 dockerfile - (/#/?/%)
@@ -13,10 +13,10 @@ system.debug - false
 system.definitionId - 0000
 system.teamProject - test
 
-## 2 Enable continuous integration ##
+2 Enable continuous integration
 **CI - Enable continuous integration (yes)
 
-## 3 Tasks ##
+3 Tasks 
 Tasks:
 
 Azure Repos Config:
