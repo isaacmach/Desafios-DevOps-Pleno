@@ -1,3 +1,14 @@
-Resposta**
+Resposta
 
 A - MultiStage build
+
+As vantagens das builds em várias etapas (Multi-Stage Builds) no Docker são:
+Redução de Tamanho: Imagens finais menores, economizando espaço e tempo de implantação.
+Melhor Segurança: Controle preciso sobre as dependências, reduzindo riscos de segurança.
+Facilidade de Manutenção: Atualização simplificada de imagens e estágios independentes.
+Clareza no Processo: Construção mais compreensível com estágios nomeados.
+Reutilização: Estágios podem ser reutilizados em diferentes projetos.
+Melhor Performance: Otimização de builds com uso de cache.
+Integração com CI/CD: Adequação para pipelines de integração contínua e implantação contínua.
+Portabilidade: Imagens mais portáteis, com menos dependências específicas.
+Resumindo, as builds em várias etapas melhoram a eficiência, segurança e manutenção de imagens Docker, tornando-as ideais para ambientes de produção.
